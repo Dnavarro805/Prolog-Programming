@@ -12,11 +12,11 @@
 % Problem 2: Run queries using ONLY setof and your rules from Problem 1
 % to answer the following queries. The structure of your queries is
 % important. Your queries must work for any family, not just your own.
-%    A list of all your mother’s siblings.
+%    A list of all your motherâ€™s siblings.
 %    A list of all your firstcousins.
 %    A list of all your aunts and uncles.[Also use append]
 %    A list of all your siblings.
-%    A list of all your grandmother’s children.[Pick one]
+%    A list of all your grandmotherâ€™s children.[Pick one]
 %    A list of all your ancestors.
 %    A list of all descendants of your grandfather.[Pick one]
 
@@ -145,19 +145,3 @@ firstcousins(X,Y):-child(X,Z),siblings(Z,M),parent(M,Y).
 
 %?- setof(X,descendant(X,ted),L).
 %L = [john, luke].
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
