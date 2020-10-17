@@ -1,1 +1,1 @@
-# Prolog-Programming
+# Programming Prolog
